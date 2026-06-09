@@ -27,15 +27,15 @@ Credit default prediction is one of the highest-stakes ML applications in FinTec
 
 ## ✨ What Makes This Different
 
-| Typical Student Project | This Project |
-|---|---|
-| `model.fit(X, y)` → accuracy | ROC-AUC + Average Precision + Brier Score |
-| No missing value strategy | Domain-aware median imputation + RobustScaler |
-| GridSearchCV | Optuna Bayesian optimization (30 trials, 3-fold CV) |
-| Raw probabilities | Isotonic regression calibration |
-| 0.5 threshold | Cost-sensitive threshold optimization (FN = 10× FP) |
-| Feature importances | SHAP TreeExplainer (global + local) |
-| `.ipynb` only | Streamlit app + artifact serialization + modular src/ |
+| Typical Student Project      | This Project                                          |
+| ---------------------------- | ----------------------------------------------------- |
+| `model.fit(X, y)` → accuracy | ROC-AUC + Average Precision + Brier Score             |
+| No missing value strategy    | Domain-aware median imputation + RobustScaler         |
+| GridSearchCV                 | Optuna Bayesian optimization (30 trials, 3-fold CV)   |
+| Raw probabilities            | Isotonic regression calibration                       |
+| 0.5 threshold                | Cost-sensitive threshold optimization (FN = 10× FP)   |
+| Feature importances          | SHAP TreeExplainer (global + local)                   |
+| `.ipynb` only                | Streamlit app + artifact serialization + modular src/ |
 
 ---
 
@@ -81,12 +81,12 @@ SOCIAL_DEFAULT_RATIO = DEF_30_CNT_SOCIAL_CIRCLE / OBS_30_CNT_SOCIAL_CIRCLE
 
 ### 2. Model Comparison
 
-| Model | ROC-AUC | Avg Precision |
-|---|---|---|
-| Logistic Regression | 0.693 | 0.241 |
-| Random Forest | 0.728 | 0.268 |
-| Gradient Boosting | 0.741 | 0.289 |
-| **LightGBM (tuned)** | **0.762** | **0.312** |
+| Model                | ROC-AUC   | Avg Precision |
+| -------------------- | --------- | ------------- |
+| Logistic Regression  | 0.693     | 0.241         |
+| Random Forest        | 0.728     | 0.268         |
+| Gradient Boosting    | 0.741     | 0.289         |
+| **LightGBM (tuned)** | **0.762** | **0.312**     |
 
 ### 3. Hyperparameter Tuning — Optuna
 
@@ -199,11 +199,11 @@ Cost reduction:   ~23% vs default threshold
 
 ## 📁 Key Files
 
-| File | Description |
-|---|---|
+| File                                       | Description                |
+| ------------------------------------------ | -------------------------- |
 | `notebooks/credit_risk_intelligence.ipynb` | Full reproducible pipeline |
-| `streamlit_app/app.py` | Production web application |
-| `requirements.txt` | Python dependencies |
+| `streamlit_app/app.py`                     | Production web application |
+| `requirements.txt`                         | Python dependencies        |
 
 ---
 
@@ -215,4 +215,4 @@ Built as part of Amazon ML Summer School portfolio.
 
 ## 📄 License
 
-MIT License — free to use, cite, and build upon.
+MIT License — free to use, cite, and build upon...
