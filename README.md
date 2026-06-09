@@ -11,7 +11,7 @@
 
 **End-to-end ML pipeline for credit default prediction with explainability, calibration, and cost-sensitive decision optimization.**
 
-[Live Demo](#deployment) · [Notebook](#notebook) · [Architecture](#architecture)
+[Live Demo](https://credit-risk-platform-2tdwywa2rwmgzruyd2s2pt.streamlit.app/)
 
 </div>
 
