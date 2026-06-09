@@ -131,7 +131,7 @@ shap_vals  = explainer.shap_values(X_test)
 
 ### Run the Notebook (Google Colab)
 
-[![Open In Colab](https://colab.research.google.com/drive/1KRbzDFYqiLLAU-JpAkGooZNhOif0kLfq?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KRbzDFYqiLLAU-JpAkGooZNhOif0kLfq?usp=sharing)
 
 1. Open the notebook in Colab
 2. Run all cells (~10-12 minutes)
